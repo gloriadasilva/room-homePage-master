@@ -1,0 +1,57 @@
+edit.txt
+  img{
+        margin: 0;
+        padding: 0;
+    }
+   .header{
+        background: url(mobile-image-hero-1.jpg);
+       /* height: 100vh;*/
+        background-repeat: no-repeat;
+    }
+
+   /* .header::before,
+    .header::after{
+        content: url(icon-angle-left\ -\ Copy.svg);
+        position: absolute;
+        top : 50%;
+        padding-left: 2em;
+        background-color: black;
+        margin-left: 17.6em;
+    }
+    .header::after{
+        content: url(icon-angle-right.svg);
+        position: absolute;
+        top: 50%;
+    
+    }*/
+    .nav-bar{
+        display: block;
+    }
+    .nav-header{
+        display: flex;
+        gap: 10em;
+    }
+    .close{
+        color: #fff;
+        background-color: #fff;
+    }
+    .nav-list{
+        margin-right: 2em;
+        margin-top: 1em;
+        background-color: white;
+        height: 0;
+        text-overflow: hidden;
+        visibility: hidden
+       
+    }
+    .show{
+        display: block;
+        visibility: visible;
+        background-color: #fff;
+    }
+    a{
+        color: black;
+        font-weight: 600;
+    }
+
+
